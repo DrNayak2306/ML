@@ -27,7 +27,6 @@ Domain specific expertise involved and is more artisanal in nature.
 * Dimensionality reduction
 
 # Python library guide
-
 ## Data handling & manipulation
 | LIBRARY   | PURPOSE                                                                       |
 | ---       | ---                                                                           |
