@@ -1,3 +1,6 @@
+# -*- coding: UTF-8 -*-
+# encoding specification is always done on line 1 (or line 2 if UNIX shebang line is used)
+
 import os
 
 # use of - option
