@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "string.h": "c"
+    },
+    "python.analysis.autoImportCompletions": false
+}

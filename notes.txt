@@ -1,0 +1,18 @@
+feature engineering:
+f:(house length, house width) = house price ---feature engineering---> f:(house area) = house price
+house length and width can be multiplied into house area as a single feature
+this helps in computational efficiency and accuracy
+
+feature selection:
+choosing the most relevant features helps in reducing overfitting and improving computational efficiency
+
+addressing overfitting:
+1. train on more data (looking at more data will help the model generalize better)
+2. feature selection
+3. regularization
+
+regularization:
+limit parameter sizes
+suppose a model uses w4x^4 + w3x^3 + w2x^2 + w1x + b
+one way to reduce overfit due to large w4 and w3 values is to set model as 1000w4 + 1000w3 + w2x^2 + w1x + b
+this way automatically w4 and w3 are minimized since otherwise cost would be large
